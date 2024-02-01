@@ -5,29 +5,18 @@ High performance Node.js (with native C addons) mining pool for CryptoNote based
 
 
 #### Table of Contents
-- [cryptonote-nodejs-pool](#cryptonote-nodejs-pool)
-      - [Table of Contents](#table-of-contents)
-- [Features](#features)
-      - [Optimized pool server](#optimized-pool-server)
-      - [Live statistics API](#live-statistics-api)
-      - [Mined blocks explorer](#mined-blocks-explorer)
-      - [Smart payment processing](#smart-payment-processing)
-      - [Admin panel](#admin-panel)
-      - [Pool stability monitoring](#pool-stability-monitoring)
-      - [Extra features](#extra-features)
-- [Usage](#usage)
-      - [Requirements](#requirements)
-        - [Seriously](#seriously)
-      - [1) Downloading \& Installing](#1-downloading--installing)
-      - [2) Configuration](#2-configuration)
-      - [3) Start the pool](#3-start-the-pool)
-      - [4) Host the front-end](#4-host-the-front-end)
-      - [5) Customize your website](#5-customize-your-website)
-      - [SSL](#ssl)
-      - [Upgrading](#upgrading)
-    - [JSON-RPC Commands from CLI](#json-rpc-commands-from-cli)
-  - [License](#license)
 
+* [Features](#features)
+* [Usage](#usage)
+  * [Requirements](#requirements)
+  * [Downloading & Installing](#1-downloading--installing)
+  * [Configuration](#2-configuration)
+  * [Starting the Pool](#3-start-the-pool)
+  * [Host the front-end](#4-host-the-front-end)
+  * [Customizing your website](#5-customize-your-website)
+  * [SSL](#ssl)
+  * [Upgrading](#upgrading)
+* [JSON-RPC Commands from CLI](#json-rpc-commands-from-cli)
 
 Features
 ===
