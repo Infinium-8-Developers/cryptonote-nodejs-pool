@@ -38,7 +38,7 @@
         "mergedMining": false,
         "clusterForks": "auto",
         "poolAddress": "inf1guboUTvbBTQfapqET8Tf5oCMrZ3Qz32wny78Z6iu6XKDbBhTfiyL6FSG8mtuMEG2km3Wik3RdDY86ffaQs4N1NsNvyNgpe",
-    	"intAddressPrefix": null,
+    	"intAddressPrefix": "0x24ea79",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "sslCert": "./cert.pem",
@@ -46,7 +46,7 @@
         "sslCA": "./chain.pem",
         "ports": [
             {
-                "port": 3333,
+                "port": 2222,
                 "difficulty": 5000000,
                 "desc": "Low end hardware"
             },

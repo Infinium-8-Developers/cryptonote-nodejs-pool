@@ -1,4 +1,4 @@
- 
+
  // Load needed modules
  var fs = require('fs');
  var cluster = require('cluster');
@@ -28,7 +28,11 @@
  if (cluster.isWorker) {
  	switch (process.env.workerType) {
  		case 'pool':
- 			require('./lib/pool.js');
+			if (config.cnAlgorithm == "ethash") {
+				require('./lib/pool-infinium.js');
+			} else {
+ 				require('./lib/pool.js');
+			}
  			break;
  		case 'daemon':
  			require('./lib/daemon.js')
